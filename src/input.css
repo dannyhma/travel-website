@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'CircularSTD';
+		src: url('../public/font/CircularStd-Bold.woff');
+	}
+
+	html {
+		font-family: inter;
+	}
+
+	h1 {
+		font-family: CircularSTD;
+	}
+}
