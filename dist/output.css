@@ -439,7 +439,7 @@ video {
 @font-face {
   font-family: 'CircularSTD';
 
-  src: url('../public/font/CircularStd-Bold.woff');
+  src: url('../dist/font/CircularStd-Bold.woff');
 }
 
 html {
