@@ -13,34 +13,34 @@
 		<nav x-data="{navOpen:false}" class="px-4 py-9">
 			<div class="container mx-auto">
 				<div class="flex items-center justify-between">
-					<img src="public/asset/logo.svg" alt="Logo" class="order-1 sm:order-2" />
+					<img src="public/asset/logo/logo.svg" alt="Logo" class="order-1 sm:order-2" />
 					<img
 						x-on:click="navOpen = !navOpen"
-						src="public/asset/toggle.svg"
+						src="public/asset/button/toggle.svg"
 						alt="navOpen"
 						class="order-2 cursor-pointer sm:order-1 lg:hidden"
 					/>
 					<div class="order-2 hidden lg:block">
 						<ul class="flex gap-16">
-							<li class="text-Gray font-CircularSTD text-sm font-bold">
+							<li class="font-CircularSTD text-sm font-bold text-Gray">
 								<a href="#">Home</a>
 							</li>
-							<li class="text-Gray font-CircularSTD text-sm font-bold opacity-50">
+							<li class="font-CircularSTD text-sm font-bold text-Gray opacity-50">
 								<a href="#">Discover</a>
 							</li>
-							<li class="text-Gray font-CircularSTD text-sm font-bold opacity-50">
+							<li class="font-CircularSTD text-sm font-bold text-Gray opacity-50">
 								<a href="#">Special Deals</a>
 							</li>
-							<li class="text-Gray font-CircularSTD text-sm font-bold opacity-50">
+							<li class="font-CircularSTD text-sm font-bold text-Gray opacity-50">
 								<a href="#">Contact</a>
 							</li>
 						</ul>
 					</div>
 					<div class="order-3 hidden sm:block">
-						<button class="text-Gray grow rounded-full bg-white px-8 py-4 text-sm font-bold">
+						<button class="grow rounded-full bg-white px-8 py-4 text-sm font-bold text-Gray">
 							Login
 						</button>
-						<button class="bg-Purple grow rounded-full px-8 py-4 font-bold text-white">
+						<button class="grow rounded-full bg-Purple px-8 py-4 font-bold text-white">
 							Sign Up
 						</button>
 					</div>
@@ -61,7 +61,7 @@
 					<li>
 						<button
 							x-on:click="open = !open"
-							class="text-Purple flex flex-col items-center justify-start gap-1"
+							class="flex flex-col items-center justify-start gap-1 text-Purple"
 						>
 							<ion-icon name="home-outline" class="text-2xl"></ion-icon>
 							<span class="text-base font-bold">Home</span>
@@ -70,34 +70,34 @@
 					<li>
 						<button
 							x-on:click="open = !open"
-							class="text-Gray flex flex-col items-center justify-start gap-1 opacity-50"
+							class="flex flex-col items-center justify-start gap-1 text-Gray opacity-50"
 						>
 							<ion-icon name="albums-outline" class="text-2xl"></ion-icon>
-							<span class="text-Gray text-base font-normal opacity-50">Discover</span>
+							<span class="text-base font-normal text-Gray opacity-50">Discover</span>
 						</button>
 					</li>
 					<li>
 						<button
 							x-on:click="open = !open"
-							class="text-Gray flex flex-col items-center justify-start gap-1 opacity-50"
+							class="flex flex-col items-center justify-start gap-1 text-Gray opacity-50"
 						>
 							<ion-icon name="sparkles-outline" class="text-2xl"></ion-icon>
-							<span class="text-Gray text-base font-normal opacity-50">Special</span>
+							<span class="text-base font-normal text-Gray opacity-50">Special</span>
 						</button>
 					</li>
 					<li>
 						<button
 							x-on:click="open = !open"
-							class="text-Gray flex flex-col items-center justify-start gap-1 opacity-50"
+							class="flex flex-col items-center justify-start gap-1 text-Gray opacity-50"
 						>
 							<ion-icon name="megaphone-outline" class="text-2xl"></ion-icon>
-							<span class="text-Gray text-base font-normal opacity-50">Contact</span>
+							<span class="text-base font-normal text-Gray opacity-50">Contact</span>
 						</button>
 					</li>
 					<li>
 						<button
 							x-on:click="open = !open"
-							class="text-Gray flex flex-col items-center justify-start gap-1 opacity-50"
+							class="flex flex-col items-center justify-start gap-1 text-Gray opacity-50"
 						>
 							<ion-icon name="menu-outline" class="text-2xl"></ion-icon>
 							<span class="text-base font-normal">More</span>
@@ -114,10 +114,10 @@
 					x-transition:leave-end="opacity-0 scale-90"
 					class="absolute bottom-24 left-1/2 flex w-3/4 -translate-x-1/2 gap-4"
 				>
-					<button class="text-Gray grow rounded-full bg-white px-8 py-4 text-sm font-bold">
+					<button class="grow rounded-full bg-white px-8 py-4 text-sm font-bold text-Gray">
 						Login
 					</button>
-					<button class="bg-Purple grow rounded-full px-8 py-4 font-bold text-white">
+					<button class="grow rounded-full bg-Purple px-8 py-4 font-bold text-white">
 						Sign Up
 					</button>
 				</div>
