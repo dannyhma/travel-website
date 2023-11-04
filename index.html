@@ -7,7 +7,6 @@
 		<!-- TailwindCSS Style -->
 		<link rel="stylesheet" href="dist/output.css" />
 		<!-- Alpine.Js -->
-		<!-- <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.2/dist/cdn.min.js"></script> -->
 		<script src="https://unpkg.com/alpinejs" defer></script>
 	</head>
 	<body>
@@ -328,9 +327,9 @@
 						<img src="dist/img/discounted.svg" alt="Discounted" class="lg:relative" />
 					</div>
 					<div
-						class="col-span-12 flex flex-col gap-4 py-16 text-center lg:col-span-6 lg:pr-32 lg:text-start"
+						class="col-span-12 flex flex-col gap-4 py-16 text-center lg:col-span-6 lg:pr-56 lg:text-start"
 					>
-						<div>
+						<div class="justify-start lg:pr-52">
 							<span class="text-base font-bold leading-tight text-Pink sm:text-2xl">
 								Travel Point
 							</span>
@@ -344,27 +343,33 @@
 						</div>
 						<div class="flex flex-wrap gap-y-8 py-8">
 							<div class="w-full sm:w-1/2 sm:pr-4">
-								<div class="rounded-[32px] border border-slate-200 py-8">
+								<div class="rounded-[32px] border border-slate-200 py-8 text-center">
 									<h1 class="mb-4 text-4xl font-bold text-Orange">500+</h1>
 									<h1 class="font-inter">Holiday Package</h1>
 								</div>
 							</div>
-							<div class="w-full sm:w-1/2 sm:pl-4">
-								<div class="rounded-[32px] border border-slate-200 py-8">
-									<h1 class="mb-4 text-4xl font-bold text-Orange">500+</h1>
-									<h1 class="font-inter">Holiday Package</h1>
+							<div class="static w-full sm:w-1/2 sm:pl-4 lg:relative">
+								<div
+									class="hidden lg:absolute lg:right-[-30px] lg:top-[-140px] lg:z-[-9999] lg:block lg:h-36 lg:w-36"
+								>
+									<img src="dist/asset/icon/bigdiscounted.svg" alt="Big Discounted" />
+								</div>
+
+								<div class="rounded-[32px] border border-slate-200 py-8 text-center">
+									<h1 class="mb-4 text-4xl font-bold text-Orange">100</h1>
+									<h1 class="font-inter">Luxury Hotel</h1>
 								</div>
 							</div>
 							<div class="w-full sm:w-1/2 sm:pr-4">
-								<div class="rounded-[32px] border border-slate-200 py-8">
-									<h1 class="mb-4 text-4xl font-bold text-Orange">500+</h1>
-									<h1 class="font-inter">Holiday Package</h1>
+								<div class="rounded-[32px] border border-slate-200 py-8 text-center">
+									<h1 class="mb-4 text-4xl font-bold text-Orange">7</h1>
+									<h1 class="font-inter">Premium Airlines</h1>
 								</div>
 							</div>
 							<div class="w-full sm:w-1/2 sm:pl-4">
-								<div class="rounded-[32px] border border-slate-200 py-8">
-									<h1 class="mb-4 text-4xl font-bold text-Orange">500+</h1>
-									<h1 class="font-inter">Holiday Package</h1>
+								<div class="rounded-[32px] border border-slate-200 py-8 text-center">
+									<h1 class="mb-4 text-4xl font-bold text-Orange">2k+</h1>
+									<h1 class="font-inter">Happy Customer</h1>
 								</div>
 							</div>
 						</div>
