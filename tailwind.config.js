@@ -18,6 +18,7 @@ module.exports = {
 				Whatsapp: '#25D366',
 				Instagram: '#E4405F',
 				Facebook: '#0866FF',
+				Twitter: '#000000',
 				Discord: '#5865F2',
 				Linkedin: '#0A66C2',
 				Figma: '#F24E1E'
